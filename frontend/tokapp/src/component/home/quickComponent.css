@@ -1,0 +1,43 @@
+
+
+ #recipe{
+     height:253px;
+     width: 82%;
+     margin-top: 0px;
+     margin-left: 11%;
+     margin-right: 10%;
+     /*margin-bottom: 20px;
+     background-color: #a39c9f;*/
+     box-shadow: 0 0 10px rgba(0 0 0 0.5)
+    
+    
+ }
+ 
+ #recipe .recipe1{
+    height: 156px;
+    width: 13%;
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 2px;
+    margin-top: 58px;
+    
+ }
+ .recipe1 > img{
+     height:147px;
+     width:100%;
+     border-radius: 30px;
+    
+     
+ } 
+ .recipe1 > img:hover{
+    transform: scale(1.1);
+}
+
+.recipe1  p{
+    text-align: center;
+    margin-top: 3px;
+    text-decoration: block;
+
+ }
+
+ 

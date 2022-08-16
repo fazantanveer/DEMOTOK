@@ -1,0 +1,252 @@
+ 
+/* *{
+    margin:0;
+    padding:0px;
+    box-sizing: border-box;
+} */
+
+
+.single_footer ul{
+    margin: 0;
+    padding:0px;
+    list-style: none;
+}
+
+.single_footer ul li{
+}
+.single_footer ul li a{
+    color: #fff;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    line-height:3;
+    font-size:15px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.single_footer ul li a:hover{
+    color:#ff3666;
+}
+
+.single_footer_address{
+}
+.single_footer_address ul{
+
+}
+.single_footer_address ul li{
+    color:#fff;
+}
+
+.single_footer_address ul li span{
+  font-weight:400;
+  color:#fff;
+  line-height: 20px;
+}
+
+.footer{
+    background: linear-gradient(105deg,#6e99e6,#093c94);
+    padding-top: 80px;
+    padding-bottom: 40px;
+    width:100%;
+    
+}
+
+.single_footer{
+
+}
+/* @media only screen and (max-width:768px){
+    .single_footer{
+        margin-bottom:30px;
+    }
+}  */
+
+.single_footer h4{
+    color: #fff;
+    margin-top:0;
+    margin-bottom:25px;
+    font-weight:700px;
+    text-transform:uppercase;
+    font-size:20px;
+}
+
+.single_footer h4::after{
+    content:"";
+    display:block;
+    height:2px;
+    width:10%;
+    background: #fff;
+    margin-top:20px;
+}
+
+.single_footer p{
+    color:#fff;
+}
+
+a,a:hover,a:focus,a:active{
+   
+    text-decoration: none;
+    outline:none;
+}
+
+a,a:active,a:focus{
+    color:#333;
+    text-decoration: none;
+    transition-timing-function: ease-in-out;
+    -ms-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-duration: 0.2s;
+    -ms-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -webkit-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+img{
+    max-width:100%;
+    height:auto;
+
+}
+section{
+    padding:60px 0;
+}
+
+
+#social a{
+    display:inline-block;
+    height:40px;
+    width:10%px;
+    background-color:rgb(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    color:#ffff;
+    
+
+}
+
+ #social{
+    margin-left: 68%;
+    line-height: 20px;
+    float:left;
+    margin-top:-70px; 
+} 
+
+#social h4{
+    color:white;
+}
+
+.slogo{
+    height:40px;
+    width:98%;
+    margin-left: -1%;
+    margin-top:-6px;
+
+    
+}
+
+
+#button{
+    height:32px;
+    width:37%;
+    margin-top:-60px;
+    margin-left:195px;
+    
+}
+
+ 
+.container-conn{
+    max-width :50%;
+    margin-left:80px; 
+    margin-right:0%; 
+
+     
+}
+/*
+ul{
+    list-style:none;
+  
+}
+.footer{
+     background-color:#24262b;
+     padding:70px 0;
+     
+}
+.footer-col{
+    width:25%;
+    padding: 0 15px;
+
+      
+}
+.footer-col h6{
+    font-size :18px;
+    color:#ffff;
+    text-transform:capitalize;
+    margin-bottom:30px;
+    font-weight:500;
+    position:relative;
+    display:inline-block;
+}
+/* .footer-col ul li:not(:last-child){
+
+    margin-bottom:10px;
+    
+} */
+/* .footer-col ul li a{
+    font-size:16px;
+    text-transform: capitalize;
+    color:#ffff;
+    text-decoration: none;
+    font-weight:300;
+    color:#bbbb;
+    display:inline-block;
+    transition:all 0.3s ease;
+}
+.footer-col ul li a:hover{
+     color:#ffff;
+     padding-left:7px;
+
+}
+.footer-col .social-links a{
+    display:inline-block;
+    height:40px;
+    width:40px;
+    background-color:rgb(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    color:#ffff;
+
+}
+
+.footer-col .social{
+    margin-left: 0px;
+    line-height: 20px;
+}
+
+#created{
+    position: absolute;
+    margin-left:-360px;
+    margin-top:60px;
+    color:lightgray;
+    font-family: popins;
+}
+
+#created:hover{
+    padding-left:7px;
+    color:lightgray;
+}
+
+.slogo{
+    height:40px;
+    width:40px;
+} */ 

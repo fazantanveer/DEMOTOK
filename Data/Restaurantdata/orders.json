@@ -1,0 +1,15 @@
+db.Orders.insert(
+[
+
+{
+
+    "id":"101",
+    "username":"fazan",
+    "phone":9622528137,
+    "email":"fazan@gmail.com",
+    "mealtypes": "pizza",
+    "cost":300,
+    "status": " Order Delivered"
+}
+
+])

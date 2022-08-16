@@ -1,0 +1,18 @@
+.container_for{
+   margin-left: 30%;
+   margin-top: 130px;
+   height:400px;
+}
+
+.panel-heading{
+    margin-left: 18%;
+    margin-top: 80px;
+}
+
+.btn btn-success{
+    margin-top: 180px;
+}
+
+#submits{
+    margin-top: 30px;
+}

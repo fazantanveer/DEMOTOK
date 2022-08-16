@@ -1,0 +1,315 @@
+
+#eduSlider{
+    height:220px;
+    width:100%;
+    margin-left:0%;
+    margin-top:0px;
+    border:1px solid red;
+ }
+
+
+ 
+ .slideImgContent{
+     width: 90% !important;
+     height:220px  !important;
+     margin-top: 322px !important;
+     margin-left: 5%;
+   
+ }
+
+ #heading{
+  
+    font-size: 30px;
+    color:rgb(238 160 160);
+    
+}
+
+#heading img{
+    height: 500px;
+    width:100%;
+    margin-top: 0px;
+}
+#heading p { 
+    font-family: italic;
+    font-size: 48px;
+    font-weight: 400;
+    position:absolute;
+    margin-top: -365px;
+    margin-left:330px;
+    color:white;
+}
+
+#special{
+    height:200px;
+    width:96%;
+    position: absolute;
+    margin-left:53px;
+    margin-right:2%;
+    margin-bottom: 25px;
+    margin-top: 31px;
+}
+
+#special .content1{
+    height:142px;
+    width:31%;
+    margin-left: 5px;
+    margin-right: 10px;
+    float: left;
+    font-size:16px;
+    margin-top:5px;
+    border-radius:5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+  
+#special h2{
+   position:absolute;
+   margin-left:41%;
+   font-size: 22px;
+   font-weight: bold;
+   margin-top: -57px !important;
+}
+   
+.div-img > img {
+    width:46%;
+    height:143px;
+    border-radius: 5px;
+
+}
+/*h3,h4,h5*/
+/* h3{
+    position:absolute;
+    margin-left: 186px;
+    margin-right:0px;
+    margin-top: -14px;
+    margin-bottom: -7px;
+    font-size: 15px ;
+
+} */
+
+.discription h3{
+
+    position:absolute;
+    margin-left: 186px;
+    margin-right:0px;
+    margin-top: -136px;
+    margin-bottom: -7px;
+    font-size: 18px ;
+    font-weight: bold
+}
+
+
+ #oldprice{
+
+    position:absolute;
+    margin-top:-104px;
+
+
+}
+#newprice{
+    position:absolute;
+    margin-top:-96px;
+    margin-left:190px;
+
+}
+.discription p{
+    position:absolute;
+    margin-top:-70px;
+    margin-left:190px;
+
+}
+.discription span{
+    position:absolute;
+    margin-top:-28px;
+    margin-left:190px;
+
+}
+.discription .btn-bt{
+    color: rgb(175, 37, 37);
+    height:27px;
+    width:9%;
+    position:absolute;
+    margin-top:-32px;
+    margin-left:256px;
+    font-size:10p3;
+
+}
+
+.discription .btn-bt:hover{
+    color:white;
+    background:gray;
+}
+
+/* .discription2 h3{
+
+    position:absolute;
+    margin-left: 186px;
+    margin-right:0px;
+    margin-top: -136px;
+    margin-bottom: -7px;
+    font-size: 18px ;
+    font-weight: bold
+}
+
+.discription2 p{
+    position:absolute;
+    margin-top:-70px;
+    margin-left:190px;
+
+}
+.discription2 span{
+    position:absolute;
+    margin-top:25px;
+    margin-left:190px;
+
+} */
+
+
+
+#Kashmiriwazwan{
+    
+    height: 400px;
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top: 220px;
+    /*background-color: #352f2f;*/
+    box-shadow: 0 0 10px rgb(213, 144, 240);
+    color: #fff;
+    
+}
+
+#clue{
+    height:400px;
+    width:100%;
+    
+}
+#clue>img{
+    display: inline-block;
+    /*position: absolute;
+    margin-left: 466px;
+    width:52%;*/
+    /* height:400px !important;
+    width:100% !important; */
+   
+    height:400px;
+    width:100%;
+}
+
+.content{
+  
+    font-size:18px; 
+    position:absolute;
+    margin-top: 184px;
+    margin-left:59px;
+    float:left;  
+}
+
+
+.crook{
+    color: rgb(183 72 72);
+    height:28px;
+    width:25%;
+    margin-top:29px
+
+}
+.crook:hover{
+    color: rgb(247, 244, 244);
+    background:lightgreen;
+}
+
+
+
+ .content span  {
+     font-size: 29px;
+     letter-spacing: 10px;
+}
+ 
+
+.dc{
+    font-size:26px;
+    font-weight:bold;
+    display: block;
+    letter-spacing: 10px;
+ 
+}
+.dc:hover{
+    color:rgb(235, 232, 239);
+    font-size:30px;
+}
+
+p{
+    margin-top:20px;
+    color:#121010;
+}
+
+
+
+
+#Franchise {
+    height: 400px;
+    width:80%;
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 25px;
+    background-color: #494839;
+    color: #fff;
+    box-shadow:0 0 10px rgb(89 92 92);
+
+}
+
+
+#clue2{
+    height:400px;
+    width:100%;
+    
+}
+#clue2>img{
+    display: inline-block;
+    /*position: absolute;
+    margin-left: 466px;
+    width:52%;*/
+    /* height:400px !important;
+    width:100% !important; */
+    height:400px;
+    width:100%;
+}
+
+#Coffee {
+    height: 400px;
+    width:80%;
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #30091a;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 1, 0.4);
+}
+#coffee:hover{
+    color:rgb(248, 248, 86);
+}
+
+.prag{
+    color:#ece8ea;
+}
+
+.content p{
+    color:#e9e1e1;
+}
+
+#clue3{
+    height:400px;
+    width:100%;
+    
+}
+#clue3>img{
+    display: inline-block;
+    /*position: absolute;
+    margin-left: 466px;
+    width:52%;*/
+    /* height:400px !important;
+    width:100% !important; */
+    height:400px;
+    width:100%;
+}

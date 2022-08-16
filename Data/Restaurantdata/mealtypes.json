@@ -1,0 +1,34 @@
+db.mealtypes.insert(
+[
+    {
+        "mealtype_id": 1,
+        "mealtype": "Breakfast",
+        "content": "Start your day with exclusive breakfast options",
+        "meal_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
+    },
+    {
+        "mealtype_id": 2,
+        "mealtype": "Lunch",
+        "content": "Start your day with exclusive breakfast options",
+        "meal_image": "https://i.ibb.co/8rPxkWP/lunch.jpg"
+    },
+    {
+        "mealtype_id": 3,
+        "mealtype": "Dinner",
+        "content": "Start your day with exclusive breakfast options",
+        "meal_image": "https://i.ibb.co/XjzPqYv/dinner.jpg"
+    },
+    {
+        "mealtype_id": 4,
+        "mealtype": "coffee",
+        "content": "Start your day with exclusive breakfast options",
+        "meal_image": "https://i.cdn.newsbytesapp.com/images/l29520220407174900.jpeg"
+    },
+    {
+        "mealtype_id": 5,
+        "mealtype": "Drinks",
+        "content": "Start your day with exclusive breakfast options",
+        "meal_image": "https://i.ibb.co/YR0S6fV/drinks.jpg"
+    }
+   
+])

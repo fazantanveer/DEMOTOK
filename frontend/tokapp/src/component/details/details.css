@@ -1,0 +1,95 @@
+#mainContent{
+    height:650px;
+    width:90%;
+    margin-left:5%;
+    margin-top:-1%;
+}
+.imgDiv{
+    height:400px;
+    width:40%;
+    float: left;
+    border:5px groove gray;
+    margin-top: 86px;
+}
+.imgDiv > img {
+    height: 391px;
+    width:100%; 
+}
+.contentDiv{
+    height:500px;
+    width:55%;
+    margin-left:55px;
+    float: left;
+    margin-top: 8%;
+}
+.contentDiv h3{
+    line-height: 30px;
+}
+.contentDiv span{
+    line-height: 30px;
+}
+.feature_container{
+    width:63%;
+    display: inline-block;
+}
+.feature{
+    float: left;
+    margin-left:3%;
+    margin-top:7%;
+}
+.imgIcon{
+    height:96px;
+    width:72%;
+    margin-left:0%
+}
+h2{
+    font-size: 35px;
+    color:green;
+    margin-bottom:10px;
+
+}
+.fa-amazon{
+    font-size:25px;
+    color:orange
+}
+.checked{
+    color:red
+}
+.btn1{
+    color:white;
+    margin-left:1%;
+}
+
+.btn-proceed{
+    height:50px;
+    width:200px;
+    font-size:20px;
+    background-color:rgb(90, 90, 117)
+}
+
+.btn-back{
+    height:50px;
+    width:40%;
+    font-size:20px;
+    background-color:rgb(237, 120, 120)
+}
+
+
+#prime{
+    height:120px;
+    width:90%;
+    margin-top:0px;
+    margin-left:5%;
+    margin-bottom:5%;
+    
+}
+#red{
+    height:500px;
+    width:90%;
+    margin-top:-65px;
+    margin-left:5%;
+    margin-bottom:5%;
+    
+}
+
+

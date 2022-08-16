@@ -1,0 +1,12 @@
+{
+  "name": "inbuilt",
+  "version": "1.0.0",
+  "description": "node inbuilt",
+  "main": "fs.js",
+  "scripts": {
+    "stat": "node http.js",
+    "dev":"nodemon http.js"
+  },
+  "author": "faix",
+  "license": "ISC"
+}

@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/c433B603D0.JS" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    
+   <script>
+      function loadCoupon(){
+        document.getElementById("coupon").style.display="block"
+       }
+
+       function closeCoupon(){
+       document.getElementById("coupon").style.display="none"
+        }
+   </script>
+
+<!--dark mode section-->
+
+    <script>
+       function changeMode(){
+          let mybody = document.body;
+          mybody.classList.toggle('mydark')
+      }
+    </script>
+    
+      <title>Taste of kashmir</title> 
+</head>
+<body>
+
+  <!--darkmode starts-->
+  <button onClick="changeMode()" id="btn">
+    <i class="fa-solid fa-sun"></i>
+  </button>
+ <!--coupon starts-->
+     
+     <div id="coupon">
+        <img src="images/coupon.jpg">
+        <button class="button" onClick="closeCoupon()">&times;</button>
+     </div>
+    </div>
+    <script>
+        window.onload = loadCoupon()
+    </script>
+   </div>
+  <!--Search section starts-->
+   <div id="search">
+        <div class="container1">Taste of </div>
+           <div class="container2">Kashmir</div> 
+               <div class="logap">
+                    
+               </div>
+          <div id="logo">
+            <span>ToK</span>
+          </div>
+           <div id="heading">
+              <p> Where tradition meets wood fire</p>
+            </div>
+        <div id="eduSlider" class="carousel slide" data-ride="carousel">
+             <ol class="carousel-indicators">
+                <li data-target="#eduSlider" data-slide-to="0" class="active"></li>
+                <li data-target="#eduSlider" data-slide-to="1"></li>
+                <li data-target="#eduSlider" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="item slideImg active">
+              <img src="images/chickenblast.jpg" alt="imgslider" class="slideImgContent"  class="slideimg" />
+          </div>
+          <div class="item slideImg">
+              <img src="images/burger.jpg" alt="imgslider" class="slideImgContent" class="slideimg" />
+          </div>
+          <div class="item slideImg">
+              <img src="images/dcc.jpeg" alt="imgslider" class="slideImgContent" class="slideimg" />
+          </div>
+      </div>
+    </div>
+
+    <button type="button" class="btn-bt"></button>     
+      </div>    
+    </div>    
+ </div>
+     <!-- <div id="dropdown">
+          <select>
+                 <option>---Select your Area---</option>
+                 <option>Achabal</option>
+                 <option>Mattan</option>
+                 <option>Shangus</option>
+                 <option>Akingam</option>
+                 <option>Brakpora</option>
+                 <option>Donipawa</option>
+          </select>
+
+          <select>
+            <option>---Select you Food---</option>
+            <option>wazwan</option>
+            <option>Franchise</option>
+          </select>
+         
+        </div>-->
+
+        
+
+
+ <!--Special offer-->
+
+   <div id="special">
+          <h2>Today's Special </h2>
+       
+         <div class="content1"> 
+           <div class= "div-img">
+            <img src="images/blast.jpg" alt="chicken blast piza"/>
+            </div>
+            <div class="discription">
+              <h3>Chicken Blast Pizza</h3>
+              <p id="oldprice"><strike> old price:Rs 270</strike></p>
+              <p id="new price"> New price :Rs 200 </p>
+              <button type="button" class="btn-bt">Add To Cart</button>
+          </div>
+    </div>
+         <div class="content1">
+          <div class= "div-img">
+            <img src="images/roganjosg.jpg" alt="chicken blast pizza"/>
+            </div>
+            <div class="discription">
+              <h3>Rogan Josh</h3>
+              <p id="oldprice"><strike> old price:Rs 500</strike></p>
+              <p id="new price"> New price :Rs 400</p>
+              <button type="button" class="btn-bt">Add To Cart</button>
+          </div>
+         </div>
+         <div class="content1">
+          <div class= "div-img">
+            <img src="images/biryani.jpg" alt="chicken blast piza"/>
+            </div>
+            <div class="discription">
+              <h3>Biryani</h3>
+              <p id="oldprice"><strike> old price:Rs 250</strike></p>
+              <p  id="new price"> New price :Rs 200 </p>
+              <button type="button" class="btn-bt">Add To Cart</button>
+          </div>
+         </div>
+     </div>
+  <!--Kashmiri wazwan Section start -->
+
+ <div id="Kashmiriwazwan">
+       <div class="content">
+           <span class="dc"> kashmiri wazwan </span>
+           <p> Multi-course meal in Kashmiri cuisine</p>
+           <a href="listing.html"><button class="crook">View All</button></a>
+       </div>
+         <div id="clue">
+           <img src="images/rista.jpg">
+         </div>
+    </div>
+  
+    <!--some  recepies-->
+      <div id="recipe">
+        <a href="listing.html"> <div class="recipe1">
+         <img src="images/seekh kabab.webp" alt="seekh Kabab">  
+         <p>Seekh Kabab</p>
+        </div></a>
+        <a href="listing.html"> <div class="recipe1">
+          <img src="images/yakhni.jpg" alt="yakhni">
+          <p>Yakhni</p>
+        </div></a>
+        <a href="listing.html"> <div class="recipe1">
+          <img src="images/tabak maaz.jpg" alt="tabak maaz">
+          <p>Tabakh Maaz</p>
+        </div></a>
+        <a href="listing.html"> <div class="recipe1">
+          <img src="images/korma.webp" alt="korma"/>
+          <p>Korma</p>
+        </div></a>
+        <a href="listing.html"> <div class="recipe1">
+          <img src="images/roganjosh2.jpg" alt="roganjosh">
+          <p>Rogan Josh</p>
+        </div></a>
+        <!--  <div class="recipe1">
+          <img src="images/friedchicken.webp" alt="Frirdchecken">
+          <p>Fried chicken</p>
+        </div>-->
+          
+      </div>
+
+
+ <!--franchise section  starts-->
+    <div id="Franchise">
+      <div class="content">
+        <span class="dc"> Pizza </span>
+        <p class="prag"> You can't buy happiness but you can buy pizza  </p>
+        <button  class="crook">View All</button>
+      </div>
+         <div id="clue">
+             <img src="images/pizza6.webp">
+         </div>
+      </div>
+    </div>
+
+    <!--some  recepies-->
+    <div id="recipe">
+      <a href="listing1.html"><div class="recipe1">
+        <img src="images/chicken cheeza.avif" alt="chicken cheeza">
+        <p>Chicken cheeza</p>
+      </div></a>
+      <a href="listing1.html"><div class="recipe1">
+        <img src="images/biryani.jpg" alt="biryani">
+        <p>Biryani</p>
+      </div></a>
+      <a href="listing1.html"> <div class="recipe1">
+        <img src="images/chickenblast.jpg" alt="chicken blast">
+        <p>Chicken Blast</p>
+      </div></a>
+      <a href="listing1.html"> <div class="recipe1">
+        <img src="images/Nonveg burger.jpg" alt="Burger">
+        <p>Burger</p>
+      </div></a>
+      <a href="listing1.html"><div class="recipe1">
+        <img src="images/momos.jpg" alt="momos">
+        <p> Fried Momos</p>
+      </div> </a>
+     <!-- <div class="recipe1">
+        <img src="images/veg-momos-.jpg" alt="momos">
+        <p> Veg Momos</p>
+       
+      </div> -->
+        
+    </div>
+
+     <!--coffee section  starts-->
+    <div id="Coffee">
+      <div class="content">
+        <span class="dc"> Coffee </span>
+        <p>Coffee with a friend is like capturing happiness in a cup</p>
+        <button class="crook">View All</button>
+    </div>
+      <div id="clue">
+        <img src="images/coffee.jpg">
+      </div>
+ </div>
+
+  <!--some  recepies-->
+   <div id="recipe">
+      <a href="listing2.html"> <div class="recipe1">
+          <img src="images/coldcoffee.jpg">
+          <p>Cold Coffee</p>
+       </div></a>
+       <a href="listing2.html">    <div class="recipe1">
+               <img src="images/hotcoffee.jpg">
+               <p>Hot Coffee</p>
+          </div></a>
+        <a href="listing2.html">    <div class="recipe1">
+                <img src="images/americano.webp">
+                <p>Americano</p>
+         </div></a>
+         <a href="listing2.html">    <div class="recipe1">
+                <img src="images/espresso.webp">
+                <p>Espresso</p>
+          </div></a>
+          <a href="listing2.html">    <div class="recipe1">
+                <img src="images/cortado.jpg">
+                <p>Cortado</p>
+          </div></a>
+  <!--<div class="recipe1">
+    <img src="images/capecheno.webp">
+    <p>Capecheno</p>
+  </div>-->
+    
+</div>
+
+   <div class="footer">
+       <div class="container">
+         <div class="row">
+             <div class="footer-col">
+               <h6>Company</h6>
+                 <ul>
+                   <li><a href="#"> About us</a></li>
+                   <li><a href="#">Our Services</a></li>
+                   <li><a href="#">Team</a></li>
+                 </ul>
+             </div>
+
+             <div class="footer-col">
+              <h6>Contact Us</h6>
+                <ul>
+                  <li><a href="#">Email:ToK@gmail.com</a></li>
+                  <li><a href="#"> phone:+912134567890</a></li>
+                  <li><a href="#">Help & Support</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+              <h6>Legals</h6>
+                <ul>
+                  <li><a href="#">Terms & Conditions</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Refund & Cancellation</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+              <h6>Follow us</h6>
+              <div class="social">
+                <ul>
+                  <a href="#"><i class="fab fa-facebook-f"></i></a> 
+                  <a href="#"><i class="fab fa-twitter"></i></a> 
+                  <a href="#"><i class="fab fa-instagram"></i></a> 
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>  
+                </ul>
+            </div>
+              <span id="created">Developed by Fazan </span>
+          </div>   
+      </div>  
+   </div> 
+  </div>
+
+
+  <script>
+    window.onload = geolocation()
+    let x = document.getElementById('out');
+    function geolocation(){
+        if(navigator.geolocation){
+            navigator.geolocation.getCurrentPosition(showPosition)
+        }else{
+            x.innerText="Geo Not Supported"
+        }
+    }
+
+    function showPosition(data){
+        console.log(data)
+        sessionStorage.setItem('data',data)
+        // x.innerText=`Latitude is ${data.coords.latitude} & Longitude is ${data.coords.longitude}`
+        let latitude = data.coords.latitude;
+        let longitude = data.coords.longitude
+        const url = `https://api.openweathermap.org/data/2.5/forecast/daily?lat=${latitude}&lon=${longitude}&mode=json&units=metric&cnt=1&appid=fbf712a5a83d7305c3cda4ca8fe7ef29`;
+
+        /// api Calling 
+        fetch(url,{method:'GET'})
+        // return promise
+        .then((res) => res.json())
+        // return data
+        .then((data) => {
+            let cityName = data.city.name
+            let weather = data.list[0].temp.day
+            x.innerText = `Weather of ${cityName} is ${weather} °C`
+            // document.getElementById('icon').appendChild(
+            //      <img src='https://openweathermap.org/img/w/'+data.list[0].weather.icon+'.png'/>
+            // )
+        })
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,307 @@
+db.restaurantmenu.insert(
+
+[
+    {
+        "menu_id": 1,
+        "menu_name": "Seekh kabab",
+        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "restaurant_id": 1,
+        "menu_image": "https://media.istockphoto.com/photos/seekh-kabab2-picture-id503028377?k=20&m=503028377&s=612x612&w=0&h=wNmYgsYFxoeO7OKNPPAOf6dM1NhPlTE1Pjkg6iqXg70=",
+        "menu_type": " Non-veg",
+        "menu_price": "300"
+    },
+    {
+        "menu_id": 2,
+        "menu_name": "Yakhni",
+        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "restaurant_id": 1,
+        "menu_image": "https://dastarkhan.in/wp-content/uploads/2017/05/Chicken-Yakhni.jpg",
+        "menu_type": " Non-veg",
+        "menu_price": "400"
+    },
+    {
+        "menu_id": 3,
+        "menu_name": "Rista",
+        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "restaurant_id": 1,
+        "menu_image": "https://geekrobocook.com/wp-content/uploads/2021/04/Mutton-rista-1200x900.jpg",
+        "menu_type": " Non-veg",
+        "menu_price": "400"
+    },
+    {
+        "menu_id":4,
+        "menu_name": "korma",
+        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "restaurant_id": 1,
+        "menu_image": "https://i.ytimg.com/vi/2_u_LGOLb1U/maxresdefault.jpg",
+        "menu_type": " Non-veg",
+        "menu_price": "370"
+    },
+    {
+        "menu_id":5,
+        "menu_name": "Rogan Josh",
+        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "restaurant_id": 1,
+        "menu_image": "https://maunikagowardhan.co.uk/wp-content/uploads/2010/08/Lamb-Rogan-Josh-1-scaled.jpg",
+        "menu_type": " Non-veg",
+        "menu_price": "300"
+    },
+    {
+        "menu_id":6,
+        "menu_name": "Methi",
+        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "restaurant_id": 1,
+        "menu_image": "https://i.ytimg.com/vi/SpLpVdh3Ezk/maxresdefault.jpg",
+        "menu_type": " Non-veg",
+        "menu_price": "150"
+    },
+    {
+        "menu_id":7,
+        "menu_name": "Fried Chicken",
+        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "restaurant_id": 1,
+        "menu_image": "https://insanelygoodrecipes.com/wp-content/uploads/2020/04/Fried_Chicken-1024x536.png",
+        "menu_type": " Non-veg",
+        "menu_price": "280"
+    },
+    {
+        "menu_id":8,
+        "menu_name": "Danya Yakhni",
+        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "restaurant_id": 1,
+        "menu_image": "https://i.ytimg.com/vi/qQzwtzTyqUM/maxresdefault.jpg",
+        "menu_type": " Non-veg",
+        "menu_price": "350"
+    },
+    {
+        "menu_id":9,
+        "menu_name": "Goshtaab",
+        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "restaurant_id": 1,
+        "menu_image": "https://img.food.boxspace.in/image/rbk_5ac7436847027/xhdpi.jpg",
+        "menu_type": " Non-veg",
+        "menu_price": "250"
+    },
+    {
+        "menu_id":10,
+        "menu_name": "Mirchi Korma",
+        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "restaurant_id": 1,
+        "menu_image": "https://i.ytimg.com/vi/FPUs0jRxlmc/sddefault.jpg",
+        "menu_type": " Non-veg",
+        "menu_price": "340"
+    },
+    {
+        "menu_id":11,
+        "menu_name": "Biryani",
+        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "restaurant_id": 1,
+        "menu_image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/02/hyderabadi-biryani-recipe-chicken.jpg",
+        "menu_type": " Non-veg",
+        "menu_price": "300"
+    },
+    {
+        "menu_id":12,
+        "menu_name": "Butter chicken",
+        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "restaurant_id": 1,
+        "menu_image": "https://www.licious.in/blog/wp-content/uploads/2020/10/butter-chicken--600x600.jpg",
+        "menu_type": " Non-veg",
+        "menu_price": "300"
+    },
+    {
+        "menu_id":13,
+        "menu_name": "Chicken cheeza",
+        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "restaurant_id": 1,
+        "menu_image": "https://i.pinimg.com/736x/03/d5/2e/03d52ec12dd858d340ad782df1a33e51.jpg",
+        "menu_type": " Non-veg",
+        "menu_price": "400"
+    },
+    {
+        "menu_id":14,
+        "menu_name": "chicken Blast",
+        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "restaurant_id": 1,
+        "menu_image": "https://cdn.saharmall.com/Upload//10015//Products//s_637430197304988866_1.jpg",
+        "menu_type": " Non-veg",
+        "menu_price": "400"
+    },
+    {
+        "menu_id":15,
+        "menu_name": "calfornia pizza",
+        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "restaurant_id": 1,
+        "menu_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhhW7C91hfjyYu3U7vfHDIPAu-bntaePQtnqJtyXHHA7sEMTxhsxQuSSqNBOV5SeZWcPc&usqp=CAU",
+        "menu_type": " Non-veg",
+        "menu_price": "450"
+    },
+    {
+        "menu_id":16,
+        "menu_name": "Siclian pizza",
+        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "restaurant_id": 1,
+        "menu_image": "https://www.washingtonpost.com/rf/image_1484w/2010-2019/WashingtonPost/2019/04/23/Food/Images/v-rr-pizzas__048leadweb.jpg?t=20170517",
+        "menu_type": " Non-veg",
+        "menu_price": "350"
+    },
+    {
+        "menu_id":17,
+        "menu_name": "Greek pizza",
+        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "restaurant_id": 1,
+        "menu_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIPeE-nknl6eehiog8o3PWw-hf9ILppX9LZA&usqp=CAU",
+        "menu_type": " Non-veg",
+        "menu_price": "200"
+    },
+    {
+        "menu_id":18,
+        "menu_name": "Magareta pizza",
+        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "restaurant_id": 1,
+        "menu_image": "https://images.getrecipekit.com/20220211142347-margherita-9920.jpg?aspect_ratio=16:9&quality=90&",
+        "menu_type": " Non-veg",
+        "menu_price": "400"
+    },
+    {
+        "menu_id":19,
+        "menu_name": "Chicken Burger",
+        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "restaurant_id": 1,
+        "menu_image": "https://www.kitchensanctuary.com/wp-content/uploads/2019/08/Crispy-Chicken-Burger-square-FS-4518-500x500.jpg",
+        "menu_type": " Non-veg",
+        "menu_price": "140"
+    },
+    {
+        "menu_id":20,
+        "menu_name": "Non Veg Burger",
+        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "restaurant_id": 1,
+        "menu_image": "https://getdaytoday.com/public/uploads/all/lISK589sOJBY7Ap5kxsb1lbSY3A7AQLP2izmZJaq.jpg",
+        "menu_type": " Non-veg",
+        "menu_price": "180"
+    },
+    {
+        "menu_id":21,
+        "menu_name": "Veg burger",
+        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "restaurant_id": 1,
+        "menu_image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/halloumi-burger-4fdad97.jpg?quality=90&resize=500,454",
+        "menu_type": " Non-veg",
+        "menu_price": "90"
+    },
+    {
+        "menu_id":22,
+        "menu_name": "Cheeze burger",
+        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "restaurant_id": 1,
+        "menu_image": "http://www.domestico.co.in/wp-content/uploads/2021/03/Veg-Cheese-Burger-1.jpg",
+        "menu_type": " Non-veg",
+        "menu_price": "100"
+    },
+    {
+        "menu_id":23,
+        "menu_name": "Dcheez burger",
+        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "restaurant_id": 1,
+        "menu_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRViTYYW5U_Yvk-AeQTjf7mEKGfyBZfhMgXIKJGwsPZRTQbc15EujYEQ-5Zmx1IQ-FXISU&usqp=CAU",
+        "menu_type": " Non-veg",
+        "menu_price": "130"
+    },
+    {
+        "menu_id":24,
+        "menu_name": "Americano",
+        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "restaurant_id": 1,
+        "menu_image": "https://img.onmanorama.com/content/dam/mm/en/food/around-the-world/international/images/caffe-americano.jpg",
+        "menu_price": "90"
+    },
+    {
+        "menu_id":25,
+        "menu_name": "Espresso",
+        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "restaurant_id": 1,
+        "menu_image": "https://image.shutterstock.com/image-photo/fresh-tasty-espresso-cup-hot-260nw-517083931.jpg",
+        "menu_price": "100"
+    },
+    {
+        "menu_id":26,
+        "menu_name": "Hot Coffee",
+        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "restaurant_id": 1,
+        "menu_image": "https://www.vegrecipesofindia.com/wp-content/uploads/2018/02/cafe-style-hot-coffee-recipe-1.jpg",
+        "menu_price": "80"
+    },
+    {
+        "menu_id":27,
+        "menu_name": "Cortado",
+        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "restaurant_id": 1,
+        "menu_image": "https://coffeeaffection.com/wp-content/uploads/2021/02/Cortado.jpg",
+        "menu_price": "75"
+    },
+    {
+        "menu_id":28,
+        "menu_name": "Cold Coffee",
+        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "restaurant_id": 1,
+        "menu_image": "https://mytastycurry.com/wp-content/uploads/2020/04/Cafe-style-cold-coffee-with-icecream.jpg",
+        "menu_price": "100"
+    },
+    {
+        "menu_id":29,
+        "menu_name": "Coffee",
+        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "restaurant_id": 1,
+        "menu_image": "https://coffeeaffection.com/wp-content/uploads/2021/02/Cortado.jpg",
+        "menu_price": "80"
+    },
+    {
+        "menu_id":30,
+        "menu_name": "Strobbery",
+        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "restaurant_id": 1,
+        "menu_image": "https://coffeeaffection.com/wp-content/uploads/2021/02/Cortado.jpg",
+        "menu_price": "150"
+    },
+    {
+        "menu_id":31,
+        "menu_name": "Vanela",
+        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "restaurant_id": 1,
+        "menu_image": "https://coffeeaffection.com/wp-content/uploads/2021/02/Cortado.jpg",
+        "menu_price": "160"
+    },
+    {
+        "menu_id":32,
+        "menu_name": "butter scotch",
+        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "restaurant_id": 1,
+        "menu_image": "https://coffeeaffection.com/wp-content/uploads/2021/02/Cortado.jpg",
+        "menu_price": "180"
+    },
+    {
+        "menu_id":33,
+        "menu_name": "Coffee",
+        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "restaurant_id": 1,
+        "menu_image": "https://coffeeaffection.com/wp-content/uploads/2021/02/Cortado.jpg",
+        "menu_price": "140"
+    },
+    {
+        "menu_id":34,
+        "menu_name": "chocolate",
+        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "restaurant_id": 1,
+        "menu_image": "https://coffeeaffection.com/wp-content/uploads/2021/02/Cortado.jpg",
+        "menu_price": "140"
+    },
+    {
+        "menu_id":35,
+        "menu_name": "Talenti",
+        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "restaurant_id": 1,
+        "menu_image": "https://coffeeaffection.com/wp-content/uploads/2021/02/Cortado.jpg",
+        "menu_price": "150"
+    }
+])

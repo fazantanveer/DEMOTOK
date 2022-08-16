@@ -1,0 +1,94 @@
+db.recipe.insert([
+    {
+        "mealtype_id": 1,
+        "mealtype": "Dinner",
+        "content": "Seekh Kabab",
+        "meal_image": "https://i.ibb.co/vBNH0PS/seekh-kabab.webp" 
+    },
+    {
+        "mealtype_id": 1,
+        "mealtype": "Dinner",
+        "content": "Yakhni",
+        "meal_image": "https://i.ibb.co/1Rww10s/yakhni.jpg"
+    },
+    {
+        "mealtype_id": 1,
+        "mealtype":"Dinner",
+        "content": "Tabak Maaz",
+        "meal_image": "https://i.ibb.co/16fnRk1/tabak-maaz.jpg"
+    },
+    {
+        "mealtype_id": 1,
+        "mealtype": "Dinner",
+        "content": "Korma",
+        "meal_image": "https://i.ibb.co/SNQ7ctT/korma.webp"
+    },
+    {
+        "mealtype_id": 1,
+        "mealtype": "Dinner",
+        "content": "Rogan Josh",
+        "meal_image": "https://i.ibb.co/RPwvkh8/roganjosh2.jpg" 
+    },
+    {
+        "mealtype_id": 2,
+        "mealtype": "lunch",
+        "content": "Chicken cheeza",
+        "meal_image": "https://i.ibb.co/VJjHsfB/background3.jpg"  
+    },
+    {
+        "mealtype_id": 2,
+        "mealtype": "lunch",
+        "content": "Biryani",
+        "meal_image": "https://i.ibb.co/sKbQSHP/biryani.jpg" 
+    },
+    {
+        "mealtype_id": 2,
+        "mealtype": "fast-food",
+        "content": "Chicken Blast",
+        "meal_image": "https://i.ibb.co/Zdvqnpc/blast.jpg"
+    },
+    {
+        "mealtype_id": 2,
+        "mealtype": "fast-food",
+        "content": "Burger",
+        "meal_image": "https://i.ibb.co/MhDMTbS/Nonveg-burger.jpg"
+    },
+    {
+        "mealtype_id": 2,
+        "mealtype": "fast-food",
+        "content": "Fried Momos",
+        "meal_image": "https://i.ibb.co/Cz4V3Sv/momos.jpg"
+    },
+    {
+        "mealtype_id": 3,
+        "mealtype": "Drinks",
+        "content": "Cold-coffee",
+        "meal_image": "https://i.ibb.co/jDDtpqm/coldcoffee.jpg"
+    },
+    {
+        "mealtype_id": 3,
+        "mealtype": "Coffee",
+        "content": "Hot-coffee",
+        "meal_image": "https://i.ibb.co/BG0ZnK2/hotcoffee.jpg"
+    },
+    {
+        "mealtype_id": 3,
+        "mealtype": "Coffee",
+        "content": "Americano",
+        "meal_image": "https://i.ibb.co/hDkvT6n/americano.webp"
+    },
+    {
+        "mealtype_id": 3,
+        "mealtype": "Coffee",
+        "content": "Espresso",
+        "meal_image": "https://i.ibb.co/3WxrZf5/espresso.webp" 
+    },
+    {
+        "mealtype_id": 3,
+        "mealtype": "Coffee",
+        "content": "Cortado",
+        "meal_image": "https://i.ibb.co/9s6v1d1/cortado.jpg" 
+    }
+
+
+])

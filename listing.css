@@ -1,0 +1,185 @@
+
+
+#header{
+    width:100%;
+    height:70px;
+    text-align:center;
+    font-size:14px;
+    font-weight: 200;
+    background-color:rgb(235, 239, 240);
+    border:1px solid red;
+
+}
+
+h1{
+    position:absolute;
+    margin-top: 18px;
+    margin-left: 37%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.container1{
+    border: 1px solid red;
+    height: 960px;
+    width: 79%;
+    margin-top:3%;
+    margin-right:14%;
+    margin-left:11%;
+    margin-bottom:5%;
+    
+}
+
+h2{
+    text-align: center;
+    font-size: 22px;
+    color:rgb(233 125 125);
+    font-weight: bold;
+    margin-top: 0px;
+
+}
+
+.row1{
+    height: 290px;
+    width: 21%;
+    border:1px solid black;
+    display:inline-block;
+    justify-content: space-between;
+    margin-left:30px;
+    line-height:24px;
+    margin-top:19px;
+}
+
+ .row1 .bbg {
+    height: 80px;
+    width: 50%;
+    display:inline-block;
+    box-shadow: 10px 20px 50px grey;
+}
+
+
+.bbg  > img {
+     
+    height: 145px;
+    width: 207px;
+   
+}
+
+.bbg1{
+    height: 80px;
+    width: 50%;
+}
+
+h3{
+
+    font-size:14px;
+    margin-left: 7px;
+   
+}
+
+
+.bbg span{
+    font-size:13px;
+    margin-left: 7px;
+}
+
+
+.bbg p{
+    font-size:9px;
+    margin-left: 7px;
+}
+
+.bbg .btn-bt{
+    position: absolute;
+    margin-top:29px;
+    margin-left: -14px;
+    width: 11%;
+    height:28px;
+}
+/*--footer*/
+*{
+    margin:0;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-width :1170px;
+    margin:auto;
+}
+
+.row{
+      display:flex;
+      flex-wrap: wrap;
+}
+ul{
+    list-style:none;
+}
+.footer{
+     background-color: rgb(22, 22, 22);
+     padding:70px 0;
+}
+.footer-col{
+    width:25%;
+    padding: 0 15px;
+}
+.footer-col h6{
+    font-size :18px;
+    color:rgb(243, 237, 237);
+    text-transform:capitalize;
+    margin-bottom:30px;
+    font-weight:500;
+    position:relative;
+
+}
+.footer-col ul li:not(:last-child){
+
+    margin-bottom:10px;
+}
+.footer-col ul li a{
+    font-size:16px;
+    text-transform: capitalize;
+    color:rgb(240, 235, 235);
+    text-decoration: none;
+    font-weight:300;
+    color:rgb(237, 241, 241);;
+    display:block;
+    transition:all 0.3s ease;
+
+}
+.footer-col ul li a:hover{
+     color:rgb(212, 131, 131);
+     padding-left:7px;
+
+}
+.footer-col .social-links a{
+    display:inline-block;
+    height:40px;
+    width:40px;
+    background-color:rgba(19, 18, 18, 0.2);
+    margin:0 10px 10px 0;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    color:rgb(241, 232, 232);
+
+}
+
+.footer-col .social{
+    margin-left: 0px;
+    line-height: 20px;
+}
+
+#created{
+    position: absolute;
+    margin-left:-360px;
+    margin-top:94px;
+    color:rgb(20, 20, 20);
+    font-family: popins;
+}
+
+#created:hover{
+    padding-left:7px;
+    color:rgb(218, 164, 164);
+}
